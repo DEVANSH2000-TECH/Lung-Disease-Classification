@@ -1,0 +1,335 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="Site keywords here">
+	<meta name="description" content="">
+	<meta name='copyright' content=''>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Title -->
+	<title>LDPS - Lungs Disease Prediction System.</title>
+
+	<!-- Favicon -->
+	<link rel="icon" href={{ url_for('static', filename='assets/img/favicon.png' )}}>
+
+	<!-- Google Fonts -->
+	<link
+		href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+		rel="stylesheet">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href={{ url_for('static', filename='assets/css/bootstrap.min.css' )}}>
+	<!-- Nice Select CSS -->
+	<link rel="stylesheet" href={{ url_for('static', filename='assets/css/nice-select.css' )}}>
+	<!-- Font Awesome CSS -->
+	<link rel="stylesheet" href={{ url_for('static', filename='assets/css/font-awesome.min.css' )}}>
+	<!-- icofont CSS -->
+	<link rel="stylesheet" href={{ url_for('static', filename='assets/css/icofont.css' )}}>
+	<!-- Slicknav -->
+	<link rel="stylesheet" href={{ url_for('static', filename='assets/css/slicknav.min.css' )}}>
+	<!-- Owl Carousel CSS -->
+	<link rel="stylesheet" href={{ url_for('static', filename='assets/css/owl-carousel.css' )}}>
+	<!-- Datepicker CSS -->
+	<link rel="stylesheet" href={{ url_for('static', filename='assets/css/datepicker.css' )}}>
+	<!-- Animate CSS -->
+	<link rel="stylesheet" href={{ url_for('static', filename='assets/css/animate.min.css' )}}>
+	<!-- Magnific Popup CSS -->
+	<link rel="stylesheet" href={{ url_for('static', filename='assets/css/magnific-popup.css' )}}>
+
+	<!-- Medipro CSS -->
+	<link rel="stylesheet" href={{ url_for('static', filename='assets/css/normalize.css' )}}>
+	<link rel="stylesheet" href={{ url_for('static', filename='assets/css/style.css' )}}>
+	<link rel="stylesheet" href={{ url_for('static', filename='assets/css/responsive.css' )}}>
+
+	<style>
+		.b-card {
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px 0px #00000040;
+			background-color: rgb(195, 232, 254);
+		}
+
+		.b-head {
+			text-align: center;
+			font-size: 30px;
+			font-weight: 600;
+			color: #000;
+		}
+
+		.b-card hr {
+			margin: 10px 0px;
+		}
+
+		.b-card .form-group {
+			margin-bottom: 10px;
+		}
+
+		.b-card .form-group label {
+			font-size: 18px;
+			font-weight: 500;
+			color: #464646;
+		}
+
+		.b-card .form-group input {
+			border-radius: 28px;
+			border: 1px solid #dedede;
+			padding: 10px;
+			font-size: 16px;
+			font-weight: 500;
+			color: #f4f4f4;
+		}
+
+		.b-card .form-group input:focus {
+			border: 1px solid #dedede;
+			box-shadow: none;
+		}
+
+		.b-card .form-group .btn {
+			border-radius: 28px;
+			border: 1px solid #dedede;
+			padding: 10px 20px;
+			font-size: 16px;
+			font-weight: 500;
+			color: #f4f4f4;
+			background: #007bbd;
+			transition: all 0.3s ease;
+		}
+
+		.map_icon {
+			width: 100%;
+			float: left;
+			font-size: 16px;
+			color: #f5f0f0;
+			padding-bottom: 10px;
+		}
+
+		.paddlin_left_0 {
+    padding-left: 15px;
+}
+	</style>
+
+</head>
+
+<body>
+
+	<!-- Preloader -->
+	<div class="preloader">
+		<div class="loader">
+			<div class="loader-outter"></div>
+			<div class="loader-inner"></div>
+
+			<div class="indicator">
+				<svg width="16px" height="12px">
+					<polyline id="back" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+					<polyline id="front" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+				</svg>
+			</div>
+		</div>
+	</div>
+	<!-- End Preloader -->
+
+	<!-- Get Pro Button -->
+	<ul class="pro-features">
+
+		<li class="big-title">Pro Version Available on Themeforest</li>
+		<li class="title">Pro Version Features</li>
+		<li>2+ premade home pages</li>
+		<li>20+ html pages</li>
+		<li>Color Plate With 12+ Colors</li>
+		<li>Sticky Header / Sticky Filters</li>
+		<li>Working Contact Form With Google Map</li>
+		<div class="button">
+			<a href="http://preview.themeforest.net/item/mediplus-medical-and-doctor-html-template/full_screen_preview/26665910?_ga=2.145092285.888558928.1591971968-344530658.1588061879"
+				target="_blank" class="btn">Pro Version Demo</a>
+			<a href="https://themeforest.net/item/mediplus-medical-and-doctor-html-template/26665910" target="_blank"
+				class="btn">Buy Pro Version</a>
+		</div>
+	</ul>
+
+	<!-- Header Area -->
+	<header class="header">
+		<!-- Header Inner -->
+		<div class="header-inner">
+			<div class="container">
+				<div class="inner">
+					<div class="row">
+						
+							<!-- Start Logo -->
+							<div class="logo">
+								<h1>Lungs Disease Prediction</h1>
+								<!--	<a href="index.html"><img src="img/logo.png" alt="#"></a> -->
+							</div>
+							<!-- End Logo -->
+							<!-- Mobile Nav -->
+							<div class="mobile-nav"></div>
+							<!-- End Mobile Nav -->
+						
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--/ End Header Inner -->
+	</header>
+	<!-- End Header Area -->
+
+	<!-- Error Page -->
+	<section class="error-page section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 offset-lg-3 col-12">
+					<div class="card b-card">
+						<h3 class="b-head">Predictor</h3>
+						<hr>
+						<form action="/" method="POST" enctype=multipart/form-data>
+							<div class="form-group">
+								<label for="image">Select Image</label>
+								<input type="file" accept="image/*" placeholder="Select Image" name="photo" id="image"
+									class="form-control" required>
+							</div>
+							<input type="submit" value="Predict" class="btn btn-success">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br><br>
+		<div class="container d-none">
+			<div class="row">
+				<div class="col-lg-6 offset-lg-3 col-12">
+					<div class="card b-card">
+						<h3 class="b-head">Result</h3>
+						<hr>
+						Result here
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/ End Error Page -->
+	<!-- Footer Area -->
+	<footer id="footer" class="footer ">
+		<!-- Footer Top -->
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6 col-12">
+						<div class="single-footer">
+							<h2>About Us</h2>
+							<p>Breathing Easy: Our Portal to Predictive Lung Health - Spotting Pneumonia, COVID-19, and More with Precision.
+							</p>
+							<!-- Social -->
+							<ul class="social">
+								<li><a href="#"><i class="icofont-facebook"></i></a></li>
+								<li><a href="#"><i class="icofont-google-plus"></i></a></li>
+								<li><a href="#"><i class="icofont-twitter"></i></a></li>
+								<li><a href="#"><i class="icofont-vimeo"></i></a></li>
+								<li><a href="#"><i class="icofont-pinterest"></i></a></li>
+							</ul>
+							<!-- End Social -->
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-12">
+						<div class="single-footer f-link">
+							<h2>Quick Links</h2>
+							<div class="row">
+								<div class="col-lg-6 col-md-6 col-12">
+									<ul>
+										<li><a href="/predict"><i class="fa fa-caret-right" aria-hidden="true"></i>Home</a>
+										</li>
+										<li><a href="/predict"><i class="fa fa-caret-right"
+													aria-hidden="true"></i>Predict</a></li>
+										<li><a href="/predict"><i class="fa fa-caret-right" aria-hidden="true"></i>About
+												us</a></li>
+										<li><a href="/predict"><i class="fa fa-caret-right"
+													aria-hidden="true"></i>Contact us</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-lg-3 col-md-6 col-12">
+						<div class="single-footer f-link">
+							<h2>Contact us</h2>
+							<div class="map_icon"><img src={{ url_for('static', filename='assets/img/map-icon.png' ) }}><span class="paddlin_left_0">AI Dept.
+									Miet</span></div>
+							<div class="map_icon"><img src={{ url_for('static', filename='assets/img/call-icon.png' ) }}><span class="paddlin_left_0">+91
+								7339930342</span></div>
+							<div class="map_icon"><img src={{ url_for('static', filename='assets/img/mail-icon.png') }}><span
+									class="paddlin_left_0">heath@miet.ac.in</span></div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-12">
+						<div class="choose-right py-5">
+							<img src={{ url_for('static', filename='assets/img/pf3.jpg' )}} alt="" width="500"
+								height="500">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--/ End Footer Top -->
+		<!-- Copyright -->
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-12">
+						<div class="copyright-content">
+							<p>© Copyright 2024 | All Rights Reserved by <a href="/" target="_blank">LDP</a> </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--/ End Copyright -->
+	</footer>
+	<!--/ End Footer Area -->
+
+	<!-- jquery Min JS -->
+	<script src={{ url_for('static', filename='assets/js/jquery.min.js' )}}></script>
+	<!-- jquery Migrate JS -->
+	<script src={{ url_for('static', filename='assets/js/jquery-migrate-3.0.0.js' )}}></script>
+	<!-- jquery Ui JS -->
+	<script src={{ url_for('static', filename='assets/js/jquery-ui.min.js' )}}></script>
+	<!-- Easing JS -->
+	<script src={{ url_for('static', filename='assets/js/easing.js' )}}></script>
+	<!-- Color JS -->
+	<script src={{ url_for('static', filename='assets/js/colors.js' )}}></script>
+	<!-- Popper JS -->
+	<script src={{ url_for('static', filename='assets/js/popper.min.js' )}}></script>
+	<!-- Bootstrap Datepicker JS -->
+	<script src={{ url_for('static', filename='assets/js/bootstrap-datepicker.js' )}}></script>
+	<!-- Jquery Nav JS -->
+	<script src={{ url_for('static', filename='assets/js/jquery.nav.js' )}}></script>
+	<!-- Slicknav JS -->
+	<script src={{ url_for('static', filename='assets/js/slicknav.min.js' )}}></script>
+	<!-- ScrollUp JS -->
+	<script src={{ url_for('static', filename='assets/js/jquery.scrollUp.min.js' )}}></script>
+	<!-- Niceselect JS -->
+	<script src={{ url_for('static', filename='assets/js/niceselect.js' )}}></script>
+	<!-- Tilt Jquery JS -->
+	<script src={{ url_for('static', filename='assets/js/tilt.jquery.min.js' )}}></script>
+	<!-- Owl Carousel JS -->
+	<script src={{ url_for('static', filename='assets/js/owl-carousel.js' )}}></script>
+	<!-- counterup JS -->
+	<script src={{ url_for('static', filename='assets/js/jquery.counterup.min.js' )}}></script>
+	<!-- Steller JS -->
+	<script src={{ url_for('static', filename='assets/js/steller.js' )}}></script>
+	<!-- Wow JS -->
+	<script src={{ url_for('static', filename='assets/js/wow.min.js' )}}></script>
+	<!-- Magnific Popup JS -->
+	<script src={{ url_for('static', filename='assets/js/jquery.magnific-popup.min.js' )}}></script>
+	<!-- Counter Up CDN JS -->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src={{ url_for('static', filename='assets/js/bootstrap.min.js' )}}></script>
+	<!-- Main JS -->
+	<script src={{ url_for('static', filename='assets/js/main.js' )}}></script>
+</body>
+
+</html>
